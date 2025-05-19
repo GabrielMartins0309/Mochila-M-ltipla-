@@ -1,2 +1,3 @@
 ﻿  Mochila_Multipla.cpp
+C:\Users\gabri\OneDrive\velho\Documentos\GitHub\Mochila-M-ltipla-\Mochila_Multipla\Mochila_Multipla\Mochila_Multipla.cpp(19,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
   Mochila_Multipla.vcxproj -> C:\Users\gabri\OneDrive\velho\Documentos\GitHub\Mochila-M-ltipla-\Mochila_Multipla\x64\Debug\Mochila_Multipla.exe
