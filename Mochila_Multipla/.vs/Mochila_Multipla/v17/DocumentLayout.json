@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{525C736C-C56F-48EB-9DDD-A3242DB661DF}|Mochila_Multipla\\Mochila_Multipla.vcxproj|C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{525C736C-C56F-48EB-9DDD-A3242DB661DF}|Mochila_Multipla\\Mochila_Multipla.vcxproj|solutionrelative:Mochila_Multipla\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{525C736C-C56F-48EB-9DDD-A3242DB661DF}|Mochila_Multipla\\Mochila_Multipla.vcxproj|C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\Mochila_Multipla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{525C736C-C56F-48EB-9DDD-A3242DB661DF}|Mochila_Multipla\\Mochila_Multipla.vcxproj|solutionrelative:Mochila_Multipla\\Mochila_Multipla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525C736C-C56F-48EB-9DDD-A3242DB661DF}|Mochila_Multipla\\Mochila_Multipla.vcxproj|C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{525C736C-C56F-48EB-9DDD-A3242DB661DF}|Mochila_Multipla\\Mochila_Multipla.vcxproj|solutionrelative:Mochila_Multipla\\header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "header.h",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\header.h",
-              "RelativeDocumentMoniker": "Mochila_Multipla\\header.h",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\header.h",
-              "RelativeToolTip": "Mochila_Multipla\\header.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-19T19:06:42.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Mochila_Multipla.cpp",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\Mochila_Multipla.cpp",
               "RelativeDocumentMoniker": "Mochila_Multipla\\Mochila_Multipla.cpp",
               "ToolTip": "C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\Mochila_Multipla.cpp",
               "RelativeToolTip": "Mochila_Multipla\\Mochila_Multipla.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-19T19:05:13.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "header.h",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\header.h",
+              "RelativeDocumentMoniker": "Mochila_Multipla\\header.h",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\velho\\Documentos\\GitHub\\Mochila-M-ltipla-\\Mochila_Multipla\\Mochila_Multipla\\header.h",
+              "RelativeToolTip": "Mochila_Multipla\\header.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-19T19:06:42.232Z",
               "EditorCaption": ""
             }
           ]

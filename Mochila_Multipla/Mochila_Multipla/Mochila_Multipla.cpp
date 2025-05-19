@@ -1,11 +1,47 @@
 // Mochila_Multipla.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
 //
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include "header.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    ler_dados("pmm1.txt");
+    escrever_dados(" ");
+}
+
+void ler_dados(const char* arq) {
+    FILE* f = fopen(arq, "r");
+    fscanf(f, "%d %d", &num_obj, &num_moc);
+    for (int i = 0; i < num_obj; i++)
+        fscanf(f, "%d", &vet_val_obj[i]);
+    for (int i = 0; i < num_obj; i++)
+        fscanf(f, "%d", &vet_pes_obj[i]);
+    for (int i = 0; i < num_moc; i++)
+        fscanf(f, "%d", &vet_cap_moc[i]);
+    fclose(f);
+}
+void escrever_dados(const char* arq) {
+    FILE* f;
+    if (!strcmp(arq, " "))
+        f = stdout;
+    else
+        f = fopen(arq, "w");
+    fprintf(f, "%d %d", num_obj, num_moc);
+    fprintf(f, "\n");
+    for (int i = 0; i < num_obj; i++)
+        fprintf(f, "%d ", vet_val_obj[i]);
+    fprintf(f, "\n");
+    for (int i = 0; i < num_obj; i++)
+        fprintf(f, "%d ", vet_pes_obj[i]);
+    fprintf(f, "\n");
+    for (int i = 0; i < num_moc; i++)
+        fprintf(f, "%d ", vet_cap_moc[i]);
+        
+    if (strcmp(arq, " "))
+        fclose(f);
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
