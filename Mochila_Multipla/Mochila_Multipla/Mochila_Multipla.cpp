@@ -15,17 +15,55 @@ int PESO_DUP = 1000;
 int main()
 {
     ler_dados("pmm1.txt");
-    //escrever_dados(" ");
-    //srand(time(NULL));
+    //impressao_dados(" ");
+    srand(time(NULL));
     //Solução Binária 
     SolucaoBIN sol_bin;
     criar_solucao(sol_bin);
     calculo_fo_solucaoBIN(sol_bin);
-    escrever_solucaoBIN(sol_bin);
+    impressao_solucaoBIN(sol_bin);
+
+    Solucao sol;
+    criar_solucao(sol);
+    calculo_fo_solucao(sol);
+    impressao_solucao(sol);
     return 0;
 }
 
-void escrever_solucaoBIN(SolucaoBIN& s) {
+//Solucao vetor
+
+void impressao_solucao(Solucao& s) {
+    printf("FO: %d\n", s.fo);
+    printf("Peso das mochilas: ");
+    for (int i = 0; i < num_moc; i++)
+        printf("%d ", s.vet_peso_moc[i]);
+    printf("\nVetor de Solucao: \n");
+    for (int i = 0; i < num_obj; i++)
+        printf("%d ", s.vet_sol[i]);
+}
+
+void calculo_fo_solucao(Solucao& s) {
+    s.fo = 0;
+    memset(&s.vet_peso_moc, 0, sizeof(s.vet_peso_moc));
+    for (int i = 0; i < num_obj; i++) {
+        if (s.vet_sol[i] != -1) {
+            s.fo += vet_val_obj[i];
+            s.vet_peso_moc[s.vet_sol[i]] += vet_pes_obj[i];
+        }
+    }
+
+    for (int i = 0; i < num_obj; i++)
+        s.fo -= PESO_CAP * MAX(0, (s.vet_peso_moc[i] - vet_cap_moc[i]));
+}
+
+void criar_solucao(Solucao& s) {
+    for (int i = 0; i < num_obj; i++)
+        s.vet_sol[i] = rand() % (num_moc + 1) - 1;
+}
+
+
+//Solucao Matriz Binária 
+void impressao_solucaoBIN(SolucaoBIN& s) {
     printf("Função objetiva: %d\n", s.fo);
     printf("Objetos duplicados: ");
     for (int i = 0; i < num_obj; i++)
@@ -81,7 +119,7 @@ void ler_dados(const char* arq) {
         fscanf(f, "%d", &vet_cap_moc[i]);
     fclose(f);
 }
-void escrever_dados(const char* arq) {
+void impressao_dados(const char* arq) {
     FILE* f;
     if (!strcmp(arq, " "))
         f = stdout;
